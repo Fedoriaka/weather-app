@@ -1,0 +1,94 @@
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wraper {
+  background-color: rgb(152, 184, 244);
+  padding: 20px;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 400px;
+}
+.city {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.temp {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.condition {
+  font-size: 1.25rem;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.forecast {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 2rem;
+}
+.all_days {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.forecast-header {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.day {
+  font-weight: bold;
+}
+
+.forecast-temp,
+.forecast-cond {
+  font-size: 0.875rem;
+}
+
+.searchform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 10px;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+.searchinput {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+
+  outline: none;
+}
+
+.searchinput:focus {
+  border-color: #3b82f6;
+}
+
+.search-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
